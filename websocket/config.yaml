@@ -1,0 +1,28 @@
+db_url: "postgres://postgres:root@127.0.0.1:5432/web_socket"
+db_max_connections: 20
+
+redis_url: "redis://:123456@127.0.0.1:6379/9"
+
+redis_ws: "redis://:123456@127.0.0.1:6379/9"
+
+# web
+port: 9010
+
+# 令牌过去时间 24 小时
+token_ex: 86401
+
+# 本地缓存控制参数
+local_cache_enabled: true
+local_cache_ttl: 300  # 5分钟TTL
+local_cache_size_limit: 100
+
+node_token: '123456'
+
+# 应用 IP
+app_ip: 127.0.0.1
+
+# 节点配置
+node_config:
+  - ip: 127.0.0.1
+    port: 8080
+    token: '123456'
