@@ -1,1 +1,11 @@
 /target
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/dataSources.local.xml
+.idea/dataSources.xml
+.idea/libraries/
+.idea/contentModel.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/codeStyles/Project.xml
+.idea
